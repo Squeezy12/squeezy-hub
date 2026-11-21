@@ -1,6 +1,15 @@
 {
-  "hubVersion": "1.0.0",
+  "hub": {
+    "version": "1.1.0",
+    "notes": "Squeezy Hub aktualisiert sich jetzt selbst – mit einem Klick.",
+    "download": "https://github.com/Squeezy12/squeezy-hub/releases/download/hub-1.1.0/Squeezy-Hub-Setup-1.1.0.exe"
+  },
   "news": [
+    {
+      "date": "2026-11-22",
+      "title": "Squeezy Hub 1.1 – Updates automatisch",
+      "text": "Der Hub erkennt jetzt selbst, wenn es eine neue Version gibt, und aktualisiert sich mit einem Klick."
+    },
     {
       "date": "2026-11-22",
       "title": "Schichtpilot 1.1.1",
@@ -105,9 +114,9 @@
       "changelog": [
         {
           "version": "0.1.0",
-          "date": "",
+          "date": "2026-11-22",
           "notes": [
-            "Erste Demo – kommt bald"
+            "Erste spielbare Demo"
           ]
         }
       ]
