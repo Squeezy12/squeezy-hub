@@ -1,0 +1,186 @@
+{
+  "hubVersion": "1.0.0",
+  "news": [
+    {
+      "date": "2026-11-22",
+      "title": "Schichtpilot 1.1.1",
+      "text": "Kleines Update: Schichtpilot begrüßt dich jetzt abends und nachts passend. Einfach in Squeezy Hub auf „Aktualisieren“ klicken."
+    },
+    {
+      "date": "2026-11-22",
+      "title": "Squeezy Hub ist da! 🎉",
+      "text": "Der offizielle Launcher für alle Apps und Spiele von Squeezy. Hier kannst du alles installieren, starten und aktuell halten."
+    },
+    {
+      "date": "2026-11-22",
+      "title": "Schichtpilot 1.1 für Windows und Android",
+      "text": "Schichtplan, Überstunden, Lohn, Berichtsheft und Urlaub – jetzt mit breitem PC-Layout und als Android-App."
+    }
+  ],
+  "apps": [
+    {
+      "id": "schichtpilot",
+      "name": "Schichtpilot",
+      "category": "App",
+      "status": "available",
+      "featured": true,
+      "colors": [
+        "#4f8cff",
+        "#9b6bff"
+      ],
+      "icon": "icons/schichtpilot.png",
+      "tagline": "Schichtplan, Arbeitszeit, Überstunden und Lohn – alles an einem Ort.",
+      "description": "Trag deinen Wochenplan einmal ein und bestätige am Ende vom Tag nur noch, was du wirklich gearbeitet hast. Schichtpilot rechnet Überstunden, Lohn und Zuschläge automatisch aus, hilft dir beim Berichtsheft und erstellt Monatsberichte als PDF.",
+      "features": [
+        "Wochenplan mit Wechselschicht (bis 4 Wochen)",
+        "Überstundenkonto und Statistik",
+        "Lohnrechner mit Nacht- und Sonntagszuschlag",
+        "Urlaub und Krankheit für mehrere Tage",
+        "Berichtsheft-Hilfe und Notizen",
+        "Monatsbericht als PDF, Backup, helles und dunkles Design"
+      ],
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "version": "1.1.1",
+      "size": "115 MB",
+      "type": "nsis",
+      "exe": "Schichtpilot.exe",
+      "download": "https://github.com/Squeezy12/squeezy-hub/releases/download/schichtpilot-1.1.1/Schichtpilot-Setup-1.1.1.exe",
+      "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-11-22",
+          "notes": [
+            "Neue Begrüßung am Abend und in der Nacht",
+            "Kleinere Verbesserungen"
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-11-22",
+          "notes": [
+            "Breites PC-Layout mit Menü links",
+            "Android-Version",
+            "Neue Begrüßung in der Nacht"
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-11-21",
+          "notes": [
+            "Erste Version"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money-collector",
+      "name": "Money Collector",
+      "category": "Spiel",
+      "status": "available",
+      "colors": [
+        "#2ec46b",
+        "#0f6e8a"
+      ],
+      "icon": "icons/money-collector.png",
+      "badge": "Demo",
+      "tagline": "Sammle Geldscheine, kauf Upgrades und schalte neue Räume frei.",
+      "description": "Ein 3D-Sammelspiel in Unity: Sammle Geldscheine, investiere sie in Upgrades und schalte neue Räume frei – aber achte auf die Entities. Wähle deine Schwierigkeitsstufe und probier die kostenlose Demo aus.",
+      "features": [
+        "Geldscheine sammeln und Upgrades kaufen",
+        "Mehrere Räume zum Freischalten",
+        "Verschiedene Schwierigkeitsstufen",
+        "Entities in den Räumen"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "version": "0.1.0",
+      "size": "",
+      "type": "zip",
+      "exe": "Money Collector.exe",
+      "download": "",
+      "changelog": [
+        {
+          "version": "0.1.0",
+          "date": "",
+          "notes": [
+            "Erste Demo – kommt bald"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schulhelfer",
+      "name": "Schulhelfer",
+      "category": "App",
+      "status": "mobile",
+      "colors": [
+        "#ffb33b",
+        "#ff5d3d"
+      ],
+      "icon": "icons/schulhelfer.png",
+      "tagline": "Hausaufgaben, Proben und Noten immer im Blick.",
+      "description": "Der Schulplaner fürs Handy: Hausaufgaben eintragen, Proben planen und Noten mit Durchschnitt verwalten. Schulhelfer ist für iPhone und Android geplant.",
+      "features": [
+        "Hausaufgaben mit Fälligkeitsdatum",
+        "Proben und Schulaufgaben planen",
+        "Noten und Durchschnitt pro Fach"
+      ],
+      "platforms": [
+        "iPhone",
+        "Android"
+      ],
+      "version": "",
+      "size": "",
+      "type": "info",
+      "changelog": []
+    },
+    {
+      "id": "notiz-app",
+      "name": "Notiz-App",
+      "category": "App",
+      "status": "soon",
+      "colors": [
+        "#22c1c3",
+        "#1a6fd6"
+      ],
+      "icon": "icons/notiz-app.png",
+      "tagline": "Hefte, Handschrift und Übungsaufgaben – deine Notizen an einem Ort.",
+      "description": "Eine Notiz-App mit Heften für jedes Fach, Schreiben mit Tastatur oder Stift und einem Bereich für Übungsaufgaben. Ist gerade in Planung.",
+      "features": [
+        "Hefte für jedes Fach",
+        "Handschrift und Tastatur",
+        "Übungsaufgaben-Bereich"
+      ],
+      "platforms": [
+        "Windows",
+        "iPhone",
+        "Android"
+      ],
+      "type": "info",
+      "changelog": []
+    },
+    {
+      "id": "roblox-spiel",
+      "name": "Roblox-Spiel",
+      "category": "Spiel",
+      "status": "soon",
+      "colors": [
+        "#ff5d6c",
+        "#8a2bb8"
+      ],
+      "icon": "icons/roblox-spiel.png",
+      "tagline": "Ein eigenes Spiel auf Roblox – bald mehr dazu.",
+      "description": "Ein eigenes Roblox-Spiel ist in Arbeit. Sobald es spielbar ist, findest du hier den Link dazu.",
+      "features": [],
+      "platforms": [
+        "Roblox"
+      ],
+      "type": "info",
+      "changelog": []
+    }
+  ]
+}
