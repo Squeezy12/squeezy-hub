@@ -7,6 +7,11 @@
   "news": [
     {
       "date": "2026-11-22",
+      "title": "Money Collector Demo ist da! 💸",
+      "text": "Die erste spielbare Demo von Money Collector kann jetzt in Squeezy Hub installiert werden. Viel Spaß beim Sammeln!"
+    },
+    {
+      "date": "2026-11-22",
       "title": "Squeezy Hub 1.1 – Updates automatisch",
       "text": "Der Hub erkennt jetzt selbst, wenn es eine neue Version gibt, und aktualisiert sich mit einem Klick."
     },
@@ -107,10 +112,10 @@
         "Windows"
       ],
       "version": "0.1.0",
-      "size": "",
+      "size": "38 MB",
       "type": "zip",
       "exe": "Money Collector.exe",
-      "download": "",
+      "download": "https://github.com/Squeezy12/squeezy-hub/releases/download/money-collector-0.1.0/Money-Collector-Demo-0.1.0.zip",
       "changelog": [
         {
           "version": "0.1.0",
